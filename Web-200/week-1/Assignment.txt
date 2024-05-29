@@ -1,4 +1,4 @@
- INSTRUCTIONS
+INSTRUCTIONS
 Welcome to "Assignment 1.3 - Creating a Webpage for a Wildlife Rescue Organization."  For this week's assignment, you will be creating your first HTML page and validating it through the W3C validation website. 
 
 Required Actions:
