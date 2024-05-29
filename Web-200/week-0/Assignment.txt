@@ -1,0 +1,47 @@
+Assignment 0.1 - Programming Environment I
+For this course and the remaining courses in the Web Development cohort, Visual Studio Code (or VSC for short) will be used to code your programming assignments.  VSC is a text editing software solution that allows you to build software solutions.  VSC supports most modern programming languages and frameworks.  As of this writing (2023), VSC is ranked number one among other Integrated Development Environments (IDE).  According to a recent survey conducted on stackoverflow.com, VSC accounted for 73.71% of the votes (out of 85, 544).  In the JavaScript community, VSC is the top choice for building full-stack JavaScript applications.  Other popular choices are: 
+Notepad++ (24.54%)
+WebStorm (7.38%)
+Atom (5.63%)
+TextMate (0.68%)
+Brackets (not ranked)
+The course's textbook will explain that any text editor or IDE is sufficient for creating HTML, CSS, and JavaScript files, which is accurate; however, as you progress through this cohort you will be learning: database development, Python, TypeScript, and Angular.  Having a single IDE that supports a wide range of programming languages, frameworks, and features will go a long way in making your life easier.  This assignment has two parts.
+Part I:
+Visit the Download Visual Studio Code page and install VS Code based on your computer's operating system.
+Test the VS Code Installation by double-clicking on the installation icon.  If it was installed correctly, you should see a welcome page. 
+Part II: 
+Open VS Code.
+Select File -> Preferences -> Extensions.
+In the “Search Extensions in Marketplace” input field search and install the following plug-ins:
+Code Spell Checker.by Street Side Software.
+EditorConfig for VS Code. by editorconfig.org. 
+Prettier – Code Formatter by prettier.io.
+TODO Highlight by Wayou Liu.
+open in browser by TechER.
+Code Spell Checker, as the name suggests, is a plug-in for catching common spelling errors. 
+EditorConfig for VS Code.  Is a plug-in that attempts to override the default behavior of VS Code and allows us to define custom rules for code formatting.  All you have to do is add a .editorconfig file to the root of a project in VS Code and it will read the contents of that file and behavior accordingly.  For example, the development community says for HTML, CSS, and JavaScript we should be using 2-spaces for indention.  Well, the problem with this is, the default behavior of VS Code is to use 4 spaces for indention.  With this plug-in, we can fix this by adding a new .editorconfig file to our project and specifying in the file that we only want to use 2-spaces for indention. 
+Prettier – Code Formatter.  This plug-in provides a simple way for us to auto-format our code based on what we have defined in the .editorconfig file.  To auto-format the code, select the text you want to Prettify and enter Ctrl + Shift + P -> Format Selection (Windows) or CMD + Shift + P -> Format Selection (macOS).
+TODO Highlight.  This plug-in highlights any code comments using the keyword TODO.  This is extremely helpful because we can use it as a reminder for pending changes/work.  For example, let’s say I am working on an assignment and I need to step away.  I can add code comments with the TODO keyword and the extension will highlight where I left off.  Effectively, leaving myself a reminder of the work I have left to complete.  Do not underestimate the value of this extension, I have used this extension on practically every project I have ever worked on.  
+Open in a browser.  This plug-in allows you to right-click on an HTML and open it in a browser.  The advantage of this approach is you can select which browser to open the file and you no longer need to find the file on your hard drive to open it.
+
+Assignment 0.2 - Programming Environment II
+Git is a free and open-source distributed version control system.  Version control systems are used to store coding projects in what is called a repository.  These repositories are usually stored in some remote location and accessible by a team of developers.  To fully grasp the concept of version control systems and why they are important consider the following two use cases.
+Use case 1:
+You work on a team of five web developers and are responsible for maintaining a shopping cart website like Amazon.  Throughout the week you are given development tasks.  These tasks range from changing images, adding new features to the website, and resolving errors.  Your team has been working on this application for five years and has a system in place to manage code changes.  Each time an HTML file is updated or a resource is added, the changes are emailed to the entire team through their Office 365 account. 
+Things to consider:
+Are there any risks associated with sharing these resources through email?
+What happens if one of the developers forgets to update their project with the new files?
+What happens if someone forgets to check email?  
+What happens if the new changes introduce errors/bugs and the codebase must be reverted to a previous version? 
+Use case 2:
+Same scenario as use case one, but instead of emailing the changes through your Office 365 account, you push those changes to a centralized location (think of Office 365 OneDrive or GoogleDrive).  In this scenario, everyone has a copy of the codebase on their computer, but everyone's changes are shipped and merged into the codebase being stored in a centralized location.  
+Things to consider: 
+Is this safer than emailing the files?
+Can this improve versioning?
+Would changes be easier to handle?
+Does this improve work productivity?
+Hopefully, you can see the advantages of use case two.  This is essentially what version control systems provide developers.  A centralized location where they can manage coding projects in a group setting.  Git is one of many tools that facilitates this process. 
+For this course and the remaining programming courses in this cohort we will use Git and GitHub (your GitHub account and repositories will be created in future assignments) to store and manage homework assignments and group projects.  Git can be intimating at first, but it does get easier with practice and determination. 
+Required Actions:
+Visit the downloads page and install Git based on your computer's operating system.
+If you are feeling adventurous (what new programming student is not, am I right?), read the Getting Started – About Version Control through First-Time Git Setup.  Yes, I know it is a lot of reading.  But, hey, isn’t that why we are in college?  To learn and read? 
