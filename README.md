@@ -75,16 +75,20 @@
     <tr>
         <td>1</td>
         <td>Rescue Page Outline</td>
-        <td><a href="https://codepen.io/exenreco19/pen/QWRvdOG" target="_blank">https://codepen.io/exenreco19/pen/QWRvdOG</a></td>
+        <td>
+            <ul>
+                <li>rescuepages.html - https://codepen.io/exenreco19/pen/QWRvdOG</li>
+            </ul>
+        </td>
     </tr>
     <tr>
         <td>2</td>
         <td>Rescue App</td>
         <td>
-            <ol>
+            <ul>
                 <li>index.html - https://codepen.io/exenreco19/pen/LYoyxjX</li>
                 <li>Template.html - https://codepen.io/exenreco19/pen/mdYmRKd</li>
-            </ol>
+            </ul>
         </td>
     </tr>
 </table>
