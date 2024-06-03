@@ -65,9 +65,7 @@
     recreated.
 </p>
 <table>
-    <tr>
-        Web200 Fundamentals of Web Development
-    </tr>
+    <caption>Web200 Fundamentals of Web Development Projects.</caption>
     <tr>
         <th>Week</th>
         <th>Projects</th>
