@@ -1,0 +1,20 @@
+
+Assignment 2.2 - GitHub Forks
+
+Welcome to "Assignment 2.2 - GitHub Forks."  As a Web Developer, 
+your personal projects are going to be more interesting than your 
+professional ones.  This is because they reflect you, your ideas, 
+your organizational skills, and your interests.  While we won’t be 
+creating a repository for your own project just yet, you will need to 
+demonstrate that you have at least explored GitHub.  This activity has two 
+parts.
+
+Part I:
+Create a new test repository.  To do this, use this guide.  
+The purpose of this task is to demonstrate how to create a new repository in GitHub.  
+This repository is just a test repository and will not be used in this course.
+
+Part II:
+As you have probably already gathered, there are practically an infinite number of 
+coded projects on GitHub.  For part two (2), search GitHub for a repository that you 
+find useful and fork it.  To do this, use this guide. 
