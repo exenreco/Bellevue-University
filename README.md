@@ -80,7 +80,12 @@
     <tr>
         <td>2</td>
         <td>Rescue App</td>
-        <td><a href="https://codepen.io/exenreco19/pen/LYoyxjX" target="_blank">https://codepen.io/exenreco19/pen/LYoyxjX</a></td>
+        <td>
+            <ol>
+                <li>index.html - https://codepen.io/exenreco19/pen/LYoyxjX</li>
+                <li>Template.html - https://codepen.io/exenreco19/pen/mdYmRKd</li>
+            </ol>
+        </td>
     </tr>
 </table>
 
