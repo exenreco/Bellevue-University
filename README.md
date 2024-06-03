@@ -69,11 +69,13 @@
 <table>
     <tr>
         <th>Week</th>
+        <th>Lab</th>
         <th>Projects</th>
         <th>Previews</th>
     </tr>
     <tr>
         <td>1</td>
+        <td>2</td>
         <td>Rescue Page Outline</td>
         <td>
             <ul>
@@ -82,6 +84,7 @@
         </td>
     </tr>
     <tr>
+        <td>2</td>
         <td>2</td>
         <td>Rescue App</td>
         <td>
