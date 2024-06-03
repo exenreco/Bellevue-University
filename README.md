@@ -65,7 +65,7 @@
     recreated.
 </p>
 
-# Web200 Fundamentals of Web Development Projects
+# Web200 Projects
 <table>
     <tr>
         <th>Week</th>
