@@ -1,5 +1,21 @@
 # Bellevue
 
+# Whats inside?
+<p>
+    This Repo has a collection of all the courses and materials relating to theme that I have 
+    completed while attending Bellevue University. This Repo contains materials that were 
+    assigned and created by the Bellevue University along with textbook courses I have 
+    completed over a period of time.
+</p>
+
+# Usage
+<p>
+    Materials such as Syllabus and any other materials 
+    created by the Bellevue University should not be replicated or redistributed as they
+    may be subjected to copyright. All materials and textbook projects that I created however 
+    can be used in any manner you choose.
+</p>
+
 # Course Structures
 <p>
     The table below displays all courses I took at the Bellevue University. <br>
@@ -41,3 +57,37 @@
         </td>
     </tr>
 </table>
+
+# Demos
+<p>
+    The table below lists all projects and a link to where each examples of them can be found, 
+    feel free to use any of these projects as you please as these are all materials that I 
+    recreated.
+</p>
+<table>
+    <tr>
+        <th>Web200 Fundamentals of Web Development</th>
+    </tr>
+    <tr>
+        <th>Week</th>
+        <th>Projects</th>
+        <th>Previews</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Rescue Page Outline</td>
+        <td><a href="https://codepen.io/exenreco19/pen/QWRvdOG" target="_blank">https://codepen.io/exenreco19/pen/QWRvdOG</a></td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Rescue App</td>
+        <td><a href="https://codepen.io/exenreco19/pen/LYoyxjX" target="_blank">https://codepen.io/exenreco19/pen/LYoyxjX</a></td>
+    </tr>
+</table>
+
+# Optimization
+<p>
+    Projects found in this Repo are not optimized unless otherwise stated, this is 
+    so since projects found in this repo are educationally driven and optimization 
+    was not first priority.
+</p>
