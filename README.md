@@ -64,8 +64,9 @@
     feel free to use any of these projects as you please as these are all materials that I 
     recreated.
 </p>
+
+# Web200 Fundamentals of Web Development Projects
 <table>
-    <caption>Web200 Fundamentals of Web Development Projects.</caption>
     <tr>
         <th>Week</th>
         <th>Projects</th>
