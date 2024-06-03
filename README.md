@@ -66,7 +66,7 @@
 </p>
 <table>
     <tr>
-        <th>Web200 Fundamentals of Web Development</th>
+        Web200 Fundamentals of Web Development
     </tr>
     <tr>
         <th>Week</th>
