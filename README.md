@@ -58,6 +58,13 @@
     </tr>
 </table>
 
+# Optimization
+<p>
+    Projects found in this Repo are not optimized unless otherwise stated, this is 
+    so since projects found in this repo are educationally driven and optimization 
+    was not first priority.
+</p>
+
 # Demos
 <p>
     The table below lists all projects and a link to where each examples of them can be found, 
@@ -96,9 +103,3 @@
     </tr>
 </table>
 
-# Optimization
-<p>
-    Projects found in this Repo are not optimized unless otherwise stated, this is 
-    so since projects found in this repo are educationally driven and optimization 
-    was not first priority.
-</p>
