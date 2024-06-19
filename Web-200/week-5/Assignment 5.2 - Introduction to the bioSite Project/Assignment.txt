@@ -1,0 +1,15 @@
+Assignment 5.2 - Introduction to the bioSite Project
+
+Welcome to "Assignment 5.2 - Introduction to the bioSite Project."  For this week's assignment, 
+you will be creating a test plan for the bioSite project.  The requirements document for the 
+bioSite project is located in the "Weekly Resources" section.
+
+Required Actions:
+Create a test plan for the bioSite project by completing the bioSite_plan Click for more options document.  
+
+
+Submission Instructions
+
+Click the title above to access the Assignment and submit your work.
+	- Due Date: Day 7 of the week by 11:59 PM (CST/CDT).
+	- Completed bioSite plan (use the bioSite_plan document, but rename it to yourLastName_bioSite.docx). 

@@ -1,0 +1,15 @@
+Assignment 5.3 - Styling the Wild Rescues Website for a Mobile Viewport
+
+Welcome to "Assignment 5.3 - Styling the Wild Rescues Website for a Mobile Viewport."  
+For this week's assignment, you will be updating the rescue website for mobile viewports.   
+
+Required Actions:
+Using what you learned from this week's reading assignment, complete "Lab 2 
+Styling the Wild Rescues Website for a Mobile Viewport."
+
+Submission Instructions
+
+Click the title above to access the Assignment and submit your work.
+	- Due Date: Day 7 of the week by 11:59 PM (CST/CDT).
+	- rescue folder packaged as a .zip file with an updated code base.
+	- Images of the HTML and CSS validation tests (minimum of five images).
