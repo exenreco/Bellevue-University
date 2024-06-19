@@ -103,3 +103,34 @@
     </tr>
 </table>
 
+
+# Web 201 Projects
+<table>
+    <tr>
+        <th>Week</th>
+        <th>Lab</th>
+        <th>Projects</th>
+        <th>Previews</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>2</td>
+        <td></td>
+        <td>
+            <ul>
+                <li></li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>2</td>
+        <td></td>
+        <td>
+            <ul>
+                <li></li>
+                <li></li>
+            </ul>
+        </td>
+    </tr>
+</table>
