@@ -5,7 +5,7 @@
 ===============================*/
 
 /* CSS Reset */
-body, header, nav, main, footer, img, h1, h3 {
+body, header, nav, main, footer, img, h1, h3, ul {
     margin-top: 0;
     margin-left: 0;
     margin-right: 0;
@@ -38,20 +38,52 @@ img {
     max-width: 100%;
 }
 
+/* Style rules for mobile viewport */
+
+
+/* Style rules to show mobile class and hide tab-desk class */
+@media only screen and (max-width: 420px) {
+
+    /* Display on mobile */
+    .mobile {
+        display: block;
+    }
+
+    /* Hide on mobile */
+    .tab-desk {
+        display: none;
+        visibility: hidden;
+    }
+
+
+    /* Style rules for header area */
+    h1, h3 {
+        padding: 2%;
+        text-align: center;
+    }
+    h1 {
+        font-family: "Emblema One", system-ui;
+    }
+    h3 {
+        font-family: "Lora", serif;
+    }
+}
+
+
 /* Style rules for navigation area */
 nav {
     background-color: #2a1f14;
 }
 
 nav ul {
-    margin: 0;
     text-align: center;
     list-style-type: none;
 }
 
 nav ul li {
-    display: inline-block;
+    display: block;
     font-size: 1.5em;
+    border-top: 0.5px solid #f6eee4;
     font-weight: bold;
     font-family: Geneva, Arial, sans-serif;
 }
@@ -66,10 +98,11 @@ nav ul li a {
     text-decoration: none;
 }
 
+
 /* Style rules for main content */
 main {
     padding: 2%;
-    font-family: Verdana, Arial, sans-serif;
+    font-family: "Lora", serif;
 }
 
 main p {
@@ -97,9 +130,33 @@ main ul {
     text-align: center;
 }
 
+.round {
+    border-radius: 6px;
+}
+
+#info ul {
+    margin-left: 10%;
+}
+
 #contact {
     text-align: center;
 }
+
+.tel-link {
+    background-color: #2a1f14;
+    padding: 2%;
+    width: 80%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tel-link > a {
+    color: #f6eee4;
+    text-decoration: none;
+    font-weight: bold;
+}
+
 
 /* Style rules for footer content */
 footer {
