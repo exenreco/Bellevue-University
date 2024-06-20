@@ -44,17 +44,21 @@ img {
 /* Style rules to show mobile class and hide tab-desk class */
 @media only screen and (max-width: 420px) {
 
-    /* Display on mobile */
+    /*  Tablet Viewport: mobile class */
     .mobile {
         display: block;
     }
 
-    /* Hide on mobile */
+    /*  Tablet Viewport: hide tab-desk class */
     .tab-desk {
         display: none;
         visibility: hidden;
     }
 
+    nav ul li {
+        display: block;
+        width: 100%;
+    }
 
     /* Style rules for header area */
     h1, h3 {
@@ -70,6 +74,85 @@ img {
 }
 
 
+/* Media Query for Tablet Viewport */
+@media only screen and (min-width: 620px), print {
+
+    /*  Tablet Viewport: hide mobile class */
+    .mobile {
+        display: none;
+        visibility: hidden;
+    }
+
+    /*  Tablet Viewport: Show tab-desk class */
+    .tab-desk {
+        display: block;
+    }
+
+    /*  Tablet Viewport: Style rules for nav area */
+    nav ul li {
+        display: inline-block;
+        font-size: 1.25em;
+    }
+    nav ul li a {
+        padding: 0.5em;
+    }
+}
+
+
+/* Media Query for Large Desktop Viewports */
+@media only screen and (min-width: 1921px) {
+    /* Viewport Body rules */
+    body {
+        background: linear-gradient(#f6eee4, #78593a);
+    }
+    #wrapper {
+        width: 1920px;
+        margin-top: 0;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0;
+    }
+    main {
+        background-color: #f6eee4;
+    }
+}
+
+
+/* Media Query for Print */
+@media only print {
+    body {
+        background-color: white;
+        color: black;
+    }
+}
+
+
+/* Media Query for Desktop Viewport */
+@media only screen and (min-width: 1000px), print {
+
+    /* Desktop Viewport: Style rules for nav area. */
+    nav li {
+        font-size: 1.5em;
+    }
+    nav ul li a {
+        padding-top: 0.5em;
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+        padding-bottom: 0.5em;
+    }
+    nav ul li a:hover {
+        color:#2a1f14;
+        background: #f6eee4;
+    }
+
+    /* Desktop Viewport: Style rules for main content */
+    #info ul {
+        margin-left: 5%;
+    }
+}
+
+
+
 /* Style rules for navigation area */
 nav {
     background-color: #2a1f14;
@@ -81,7 +164,7 @@ nav ul {
 }
 
 nav ul li {
-    display: block;
+    display: inline-block;
     font-size: 1.5em;
     border-top: 0.5px solid #f6eee4;
     font-weight: bold;
