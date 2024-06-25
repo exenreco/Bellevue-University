@@ -54,6 +54,53 @@
                     <p>Email: <a class="link" href="mailto:contact@wildrescues.net">contact@wildrescues.net</a></p>
                     <p>Address: <a class="link" href="https://goo.gl/maps/BTJzjc2tALd4RDWA8" target="_blank">8989 Rescue Drive, Ocala, FL 34471</a></p>
                 </div>
+                <div id="form">
+                    <h2>Complete the form below and we will contact you soon.</h2>
+                    <form class="form-grid"><!-- Start Form -->
+                        <fieldset><!-- Fieldset 1 Personal info -->
+                            <legend>Contact Information</legend>
+
+                            <label for="fName">First Name:</label>
+                            <input type="text" id="fName" name="fName">
+
+                            <label for="lName">Last Name:</label>
+                            <input type="text" id="lName" name="lName">
+
+                            <label for="bName">Business Name:</label>
+                            <input type="text" id="bName" name="bName">
+
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email">
+
+                            <label for="phone">Phone:</label>
+                            <input type="tel" id="phone" name="phone">
+                        </fieldset>
+                        <fieldset><!-- Fieldset 2 Personal -->
+                            <legend>Additional Information</legend>
+                            <p>I would like more information about:</p>
+
+                            <label for="vol">
+                                <input id="vol" type="radio" name="info" value="Volunteering">Volunteering
+                            </label>
+
+                            <label for="sponsor">
+                                <input id="sponsor" type="radio" name="info" value="Sponsorship Opportunities">Sponsorship Opportunities
+                            </label>
+
+                            <label for="wild">
+                                <input id="wild" type="radio" name="info" value="Wildlife">Wildlife
+                            </label>
+
+                            <label for="other">
+                                <input id="other" type="radio" name="info" value="Other">Other, please specify below
+                            </label>
+
+                            <label for="questions">What questions do you have for us?</label>
+                            <textarea id="questions" name="questions" cols="35" rows="5"></textarea>
+                        </fieldset>
+                        <input id="submit" type="submit" value="Submit" class="btn">
+                    </form>
+                </div>
             </main>
 
             <!-- Page Footer content area -->
