@@ -5,7 +5,7 @@
 ===============================*/
 
 /* CSS Reset */
-body, header, nav, main, footer, img, h1, h3, ul {
+body, header, nav, main, footer, img, h1, h3, ul, aside, figure, figcaption {
     margin-top: 0;
     margin-left: 0;
     margin-right: 0;
@@ -97,6 +97,16 @@ img {
     nav ul li a {
         padding: 0.5em;
     }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .grid aside {
+        grid-column: 1 / span 2;
+    }
 }
 
 
@@ -115,6 +125,16 @@ img {
     }
     main {
         background-color: #f6eee4;
+    }
+
+    .grid {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 30px;
+    }
+
+    .grid aside {
+        grid-column: 1 / span 4;
+        font-size: 3em;
     }
 }
 
@@ -144,11 +164,22 @@ img {
     nav ul li a:hover {
         color:#2a1f14;
         background: #f6eee4;
+        opacity: 0.5;
     }
 
     /* Desktop Viewport: Style rules for main content */
     #info ul {
         margin-left: 5%;
+    }
+
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+    }
+
+    .grid aside {
+        grid-column: 1 / span 3;
+        font-size: 2em;
     }
 }
 
@@ -215,6 +246,25 @@ main ul {
 
 .round {
     border-radius: 6px;
+}
+
+.grid aside {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-shadow: 4px 4px 10px #c5a687;
+}
+
+.grid figure {
+    border: 4px solid #2a1f14;
+    box-shadow: 6px 6px 10px #c5a687;
+    max-width: 400px;
+    margin: 2% auto;
+}
+
+.grid figure figcaption {
+    padding: 2%;
+    border-top: 4px solid #2a1f14;
 }
 
 #info ul {
