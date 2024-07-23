@@ -1,10 +1,10 @@
 
 <img src="./Bellevue-University.png" alt="Bellevue Logo" style="margin: auto;">
 
-# Bellevue University
+<br>
+<br>
 
-<br>
-<br>
+# Bellevue University
 
 <ul>
     <li>Student: Exenreco Bell</li>
