@@ -1,6 +1,7 @@
 # Bellevue University
 
-<img src="./bellevue-logo.jpg" alt="Bellevue Logo" style="margin: auto;">
+<img src="./Bellevue-University.png" alt="Bellevue Logo" style="margin: auto;">
+
 # Whats inside?
 <p>
     This Repo has a collection of all the courses and materials relating to theme that I have 
