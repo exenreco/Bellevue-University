@@ -1,6 +1,12 @@
-# Bellevue University
 
 <img src="./Bellevue-University.png" alt="Bellevue Logo" style="margin: auto;">
+
+# Bellevue University
+
+<ul>
+    <li>Student: Exenreco Bell</li>
+    <li>Term: 2024 - 2025</li>
+</ul>
 
 # Whats inside?
 <p>
