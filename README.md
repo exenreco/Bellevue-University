@@ -1,5 +1,5 @@
 
-<img src="./Bellevue-University.png" alt="Bellevue Logo" style="margin: auto;">
+<img src="./deployment/images/Bellevue-University.png" alt="Bellevue Logo" style="margin: auto;">
 
 <br>
 <br>
