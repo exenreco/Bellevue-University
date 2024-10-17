@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="ie6 ie"><![endif]--><!--[if IE 7]><html class="ie7 ie"><![endif]--><!--[if IE 8]><html class="ie8 ie"><![endif]--><!--[if IE 9]><html class="ie9 ie"><![endif]-->
+<html lang="en" itemscope itemtype="https://schema.org/WebPage">
+<head>
+<title>Unix and Linux Commands Help</title>
+<base href="https://www.computerhope.com/unix.htm">
+<link rel="canonical" href="https://www.computerhope.com/unix.htm">
+<link href="https://www.computerhope.com/ch.css" type="text/css" rel="stylesheet">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta content="Unix and Linux commands help and information containing hundreds of commands, syntax, questions and answers, history, news, links, and much more." name="description">
+<meta itemprop="name" content="Unix and Linux Commands Help">
+<meta itemprop="description" content="Unix and Linux commands help and information containing hundreds of commands, syntax, questions and answers, history, news, links, and much more.">
+<meta property="og:url" content="https://www.computerhope.com/unix.htm">
+<meta property="og:description" content="Unix and Linux commands help and information containing hundreds of commands, syntax, questions and answers, history, news, links, and much more.">
+<meta property="og:title" content="Unix and Linux Commands Help">
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Unix and Linux Commands Help">
+<meta name="twitter:description" content="Unix and Linux commands help and information containing hundreds of commands, syntax, questions and answers, history, news, links, and much more.">
+<meta name="twitter:creator" content="@computerhope">
+<!--[if lt IE 9]><script src="https://www.computerhope.com/cdn/html5shiv.js"></script><![endif]-->
+<meta property="og:image" content="https://www.computerhope.com/cdn/ssh.jpg">
+<meta itemprop="image" content="https://www.computerhope.com/cdn/ssh.jpg">
+<link rel="image_src" href="https://www.computerhope.com/cdn/ssh.jpg">
+<link rel="alternate" type="application/rss+xml" title="RSS-Feed" href="https://feeds.feedburner.com/LatestNewPagesOnComputerHope">
+<link rel="apple-touch-icon" href="https://www.computerhope.com/cdn/apple-touch-icon.png">
+<link rel="shortcut icon" href="https://www.computerhope.com/cdn/favicon.ico" type="image/x-icon">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-T1EX4SSG9F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-T1EX4SSG9F');
+</script>
+</head>
+<body>
+<div class="skip"><a href="#main-content">Skip to Main Content</a></div>
+<div class="wrapper">
+<header class="cf"><div class="hcontain"><a href="/"><img src="/cdn/computer-hope.png" width="412" height="82" alt="Computer Hope" aria-label="Computer Hope home page" class="logo"></a><div itemscope itemtype="https://schema.org/SiteNavigationElement"><form action="https://www.computerhope.com/cgi-bin/search.cgi" role="search" method="post"><input class="sbar" name="q" aria-label="search" type="text"><button type="Submit">Search</button></form><nav><ul id="nav"><li><a href="/oh.htm" title="Questions and answers, troubleshooting, and help">Help</a></li><li><a href="/tips/" title="Computer tips and tricks">Tips</a></li><li><a href="/jargon.htm" title="Computer terms, jargon, and glossary">Dictionary</a></li><li><a href="/history/" title="Computer timeline, events, and biographies">History</a></li><li><a href="/forum/" title="Computer Hope forums and community">Forums</a></li><li><a href="/contact/" title="Contact Computer Hope or other computer companies">Contact</a></li></ul></nav></div></div></header>
+<div class="container ad">
+<div id="top-ad">
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3999293766533555" data-ad-slot="7994873325" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div>
+</div>
+<nav class="container" aria-label="breadcrumb"><ol class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList"><li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a href="/" itemprop="item"><span itemprop="name">Home</span></a><meta itemprop="position" content="1"></li><li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a href="/oh.htm" itemprop="item"><span itemprop="name">Help</span></a><meta itemprop="position" content="2"></li><li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a href="/os.htm" itemprop="item"><span itemprop="name">Operating systems</span></a><meta itemprop="position" content="3"></li></ol></nav>
+<div class="container content" id="main-content" role="main">
+<article>
+<h1 itemprop="headline">Unix and Linux commands help</h1>
+<div class="updated">Updated: <span itemprop="dateModified" content="2020-05-23">05/23/2020</span> by <span itemprop="author publisher creator" itemscope itemtype="https://schema.org/Organization"><span itemprop="name"><a href="/more.htm">Computer Hope</a></span></span></div>
+<img src="/cdn/ssh.jpg" width="350" height="300" alt="Linux SSH (secure shell) command line" class="floatRight">
+<div class="pagenav contents" role="navigation" aria-label="contents">
+<ul>
+<li><a href="#unix">Unix ABCs</a></li>
+<li><a href="#linux">Linux ABCs</a></li>
+<li><a href="#dos">MS-DOS vs. Linux and Unix</a></li>
+<li><a href="#commands">Linux and Unix commands</a></li>
+<li class="out"><a href="/unixtop1.htm">Unix Top 10 commands</a></li>
+<li class="out"><a href="/ushort.htm">Unix Shortcuts</a></li>
+<li class="out"><a href="/history/unix.htm">Unix and Linux history</a></li>
+<li class="out"><a href="/tips/linux.htm">Unix and Linux tips</a></li>
+<li class="out"><a href="/network/unix.htm">Unix and Linux links</a></li>
+<li class="out"><a href="/linuxqa.htm">Linux Q&amp;A</a></li>
+</ul>
+</div>
+<h2 id="unix">Unix ABCs</h2>
+<p class="tab intro">Unix, which is not an acronym, was developed in the late <a href="/history/1960.htm">1960s</a> by many of the same people who helped create the <a href="/jargon/c/c.htm">C</a> programming language. Today, however, Unix is developed by many organizations, institutes, and individuals who have contributed significant additions to the modern Unix system.</p>
+<ul class="arrow noprint">
+<li>See our <a href="/jargon/u/unix.htm">Unix</a> definition for additional related information.</li>
+</ul>
+<h2 id="linux">Linux ABCs</h2>
+<p class="tab">Linux (pronounced &quot;<i>lee</i>'nuhks&quot; or <i>li</i>'nuks, but not li'<i>nuhks</i>) is the <a href="/jargon/k/kernel.htm">kernel</a> of a free, <a href="/jargon/o/opensour.htm">open-source</a> <a href="/os.htm">operating system</a>. The <a href="/jargon/l/linux-kernel.htm">Linux kernel</a> was developed by <a href="/people/linus_torvalds.htm">Linus Torvalds</a> and released in <a href="/history/1991.htm">1991</a>. It provided the underlying foundations for an operating system, but it lacked the user-level tools to make it complete.</p>
+<p class="tab">The <a href="/jargon/g/gnu.htm">GNU project</a>, begun in <a href="/history/1983.htm">1983</a> by <a href="/people/richard_stallman.htm">Richard Stallman</a>, had similar aims, creating a set of open-source tools and <a href="/jargon/u/utility.htm">utilities</a> modeled on the closed-source Unix operating system. The GNU (GNU's Not Unix) project lacked an underlying kernel, however. After the Linux kernel was released, contributors ported GNU tools to the Linux kernel, and the GNU/Linux operating system was born.</p>
+<p class="tab">There is significant controversy (even today) over whether to refer to this combined operating system as &quot;GNU/Linux&quot; or &quot;Linux.&quot; However, the general populace has gravitated to the name &quot;Linux,&quot; and this name has largely stuck. The contributions of the GNU project must not be overlooked, however. When you run an essential command in Linux, you are using a tool painstakingly created by members of the GNU project.</p>
+<p class="tab">Over the years, Linux kernel development has grown to a group of over 10,000 developers all over the world. It is released under <a href="/jargon/g/gpl.htm">GPL</a> (general public license), meaning it can be distributed, used, and expanded free of charge, and developers can view all the source code.</p>
+<ul class="arrow noprint">
+<li>See our <a href="/jargon/l/linux.htm">Linux</a> definition for related information and variant information.</li>
+</ul>
+<h2 id="dos">MS-DOS vs. Linux and Unix</h2>
+<p class="tab">If you are familiar with navigating a computer using <a href="/msdos.htm">MS-DOS</a> or the Windows command line, Linux and Unix is easier to learn. The table below lists common MS-DOS commands with their Linux and Unix counterpart.</p>
+<table class="mtable tab">
+<tr>
+<th>MS-DOS</th>
+<th>Linux and Unix</th>
+</tr>
+<tr class="tcw">
+<td><b><a href="/attribhl.htm">attrib</a></b></td>
+<td><a href="/unix/uchmod.htm">chmod</a></td>
+</tr>
+<tr class="tcw">
+<td><b>backup</b></td>
+<td><a href="/unix/utar.htm">tar</a></td>
+</tr>
+<tr class="tcw">
+<td><b><a href="/dirhlp.htm">dir</a></b></td>
+<td><a href="/unix/uls.htm">ls</a></td>
+</tr>
+<tr class="tcw">
+<td><b><a href="/clshlp.htm">cls</a></b></td>
+<td><a href="/unix/uclear.htm">clear</a></td>
+</tr>
+<tr class="tcw">
+<td><b><a href="/copyhlp.htm">copy</a></b></td>
+<td><a href="/unix/ucp.htm">cp</a></td>
+</tr>
+<tr class="tcw">
+<td><b><a href="/delhlp.htm">del</a></b></td>
+<td><a href="/unix/urm.htm">rm</a></td>
+</tr>
+<tr class="tcw">
+<td><b><a href="/deltree.htm">deltree</a></b></td>
+<td><a href="/unix/urm.htm">rm</a> -R<br> <a href="/unix/urmdir.htm">rmdir</a></td>
+</tr>
+<tr class="tcw">
+<td><b><a href="/edithlp.htm">edit</a></b></td>
+<td><a href="/unix/uvi.htm">vi</a><br> <a href="/unix/upico.htm">pico</a></td>
+</tr>
+<tr class="tcw">
+<td><b><a href="/formathl.htm">format</a></b></td>
+<td>fdformat, <a href="/unix/umount.htm">mount</a>, and <a href="/unix/umount.htm">umount</a></td>
+</tr>
+<tr class="tcw">
+<td><b><a href="/movehlp.htm">move</a> and <a href="/renamehl.htm">rename</a></b></td>
+<td><a href="/unix/umv.htm">mv</a></td>
+</tr>
+<tr class="tcw">
+<td><b><a href="/typehlp.htm">Type</a></b></td>
+<td><a href="/unix/uless.htm">less</a> &lt;file&gt;</td>
+</tr>
+<tr class="tcw">
+<td><b><a href="/cdhlp.htm">cd</a></b></td>
+<td><a href="/unix/ucd.htm">cd</a><br> <a href="/unix/uchdir.htm">chdir</a></td>
+</tr>
+<tr class="tcw">
+<td><b><a href="/morehlp.htm">more</a> &lt; file</b></td>
+<td><a href="/unix/umore.htm">more</a> file</td>
+</tr>
+<tr class="tcw">
+<td><b><a href="/mdhlp.htm">md</a></b></td>
+<td><a href="/unix/umkdir.htm">mkdir</a></td>
+</tr>
+<tr class="tcw">
+<td><b>win</b></td>
+<td><a href="/unix/ux.htm">startx</a></td>
+</tr>
+</table>
+<h2 id="commands">Linux and Unix commands</h2>
+<table class="mtable tab">
+<tr>
+<td colspan="2" class="tcg">&nbsp; * See the <a href="/unix/overview.htm">Linux and Unix commands overview</a> page for a brief description of all commands.</td>
+</tr>
+<tr>
+<td class="tclb bld ce">A</td>
+<td class="tcw"><a href="/unix/ua2p.htm">a2p</a> | <a href="/unix/uac.htm">ac</a> | <a href="/unix/adduser.htm">addgroup</a> | <a href="/unix/adduser.htm">adduser</a> | <a href="/unix/ualias.htm">alias</a> | <a href="/unix/agrep.htm">agrep</a> | <a href="/unix/apropos.htm">apropos</a> | <a href="/unix/apt-cache.htm">apt-cache</a> | <a href="/unix/apt-get.htm">apt-get</a> | <a href="/unix/aptitude.htm">aptitude</a> | <a href="/unix/uar.htm">ar</a> | <a href="/unix/uarch.htm">arch</a> | <a href="/unix/arp.htm">arp</a> | <a href="/unix/uas.htm">as</a> | <a href="/unix/aspell.htm">aspell</a> | <a href="/unix/uat.htm">at</a> | <a href="/unix/uat.htm">atq</a> | <a href="/unix/uat.htm">atrm</a> | <a href="/unix/uawk.htm">awk</a></td>
+</tr>
+<tr>
+<td class="tclb bld ce">B</td>
+<td class="tcw"><a href="/unix/ubasenam.htm">basename</a> | <a href="/unix/ubash.htm">bash</a> | <a href="/unix/uat.htm">batch</a> | <a href="/unix/ubc.htm">bc</a> | <a href="/unix/ubdiff.htm">bdiff</a> | <a href="/unix/ubfs.htm">bfs</a> | <a href="/unix/ubg.htm">bg</a> | <a href="/unix/ubiff.htm">biff</a> | <a href="/unix/ubreak.htm">break</a> | <a href="/unix/ubs.htm">bs</a> | <a href="/unix/uexit.htm">bye</a></td>
+</tr>
+<tr>
+<td class="tclb bld ce">C</td>
+<td class="tcw"><a href="/unix/ucal.htm">cal</a> | <a href="/unix/ucalande.htm">calendar</a> | <a href="/unix/ucancel.htm">cancel</a> | <a href="/unix/ucat.htm">cat</a> | <a href="/unix/ucc.htm">cc</a> | <a href="/unix/ucd.htm">cd</a> | <a href="/unix/cfdisk.htm">cfdisk</a> | <a href="/unix/ucd.htm">chdir</a> | <a href="/unix/ueqn.htm">checkeq</a> | <a href="/unix/uchecknr.htm">checknr</a> | <a href="/unix/chfn.htm">chfn</a> | <a href="/unix/uchgrp.htm">chgrp</a> | <a href="/unix/uchkey.htm">chkey</a> | <a href="/unix/uchmod.htm">chmod</a> | <a href="/unix/uchown.htm">chown</a> | <a href="/unix/chroot.htm">chroot</a> | <a href="/unix/chsh.htm">chsh</a> | <a href="/unix/ucksum.htm">cksum</a> | <a href="/unix/uclear.htm">clear</a> | <a href="/unix/uclear.htm">cls</a> | <a href="/unix/ucmp.htm">cmp</a> | <a href="/unix/ucol.htm">col</a> | <a href="/unix/ucomm.htm">comm</a> | <a href="/unix/ucompres.htm">compress</a> | <a href="/unix/ubreak.htm">continue</a> | <a href="/unix/ucp.htm">copy</a> | <a href="/unix/ucp.htm">cp</a> | <a href="/unix/ucpio.htm">cpio</a> | <a href="/unix/ucrontab.htm">crontab</a> | <a href="/unix/ucsh.htm">csh</a> | <a href="/unix/ucsplit.htm">csplit</a> | <a href="/unix/uctags.htm">ctags</a> | <a href="/unix/ucu.htm">cu</a> | <a href="/unix/curl.htm">curl</a> | <a href="/unix/ucut.htm">cut</a></td>
+</tr>
+<tr>
+<td class="tclb bld ce">D</td>
+<td class="tcw"><a href="/unix/udate.htm">date</a> | <a href="/unix/udc.htm">dc</a> | <a href="/unix/dd.htm">dd</a> | <a href="/unix/deluser.htm">delgroup</a> | <a href="/unix/deluser.htm">deluser</a> | <a href="/unix/depmod.htm">depmod</a> | <a href="/unix/uderoff.htm">deroff</a> | <a href="/unix/udf.htm">df</a> | <a href="/unix/dhclient.htm">dhclient</a> | <a href="/unix/udiff.htm">diff</a> | <a href="/unix/dig.htm">dig</a> | <a href="/unix/uls.htm">dir</a> | <a href="/unix/udircmp.htm">dircmp</a> | <a href="/unix/udirname.htm">dirname</a> | <a href="/unix/dmesg.htm">dmesg</a> | <a href="/unix/dos2unix.htm">dos2unix</a> | <a href="/unix/dpkg.htm">dpkg</a> | <a href="/unix/udpost.htm">dpost</a> | <a href="/unix/udu.htm">du</a></td>
+</tr>
+<tr>
+<td class="tclb bld ce">E</td>
+<td class="tcw"><a href="/unix/uecho.htm">echo</a> | <a href="/unix/ued.htm">ed</a> | <a href="/unix/uedit.htm">edit</a> | <a href="/unix/uegrep.htm">egrep</a> | <a href="/unix/eject.htm">eject</a> | <a href="/unix/uelm.htm">elm</a> | <a href="/unix/uemacs.htm">emacs</a> | <a href="/unix/uenable.htm">enable</a> | <a href="/unix/uenv.htm">env</a> | <a href="/unix/ueqn.htm">eqn</a> | <a href="/unix/uex.htm">ex</a> | <a href="/unix/uexit.htm">exit</a> | <a href="/unix/uexpand.htm">expand</a> | <a href="/unix/uexpr.htm">expr</a></td>
+</tr>
+<tr>
+<td class="tclb bld ce">F</td>
+<td class="tcw"><a href="/unix/uhistory.htm">fc</a> | <a href="/unix/fdisk.htm">fdisk</a> | <a href="/unix/ufg.htm">fg</a> | <a href="/unix/ufgrep.htm">fgrep</a> | <a href="/unix/ufile.htm">file</a> | <a href="/unix/ufind.htm">find</a> | <a href="/unix/findsmb.htm">findsmb</a> | <a href="/unix/ufinger.htm">finger</a> | <a href="/unix/ufmt.htm">fmt</a> | <a href="/unix/ufold.htm">fold</a> | <a href="/unix/ufor.htm">for</a> | <a href="/unix/ufor.htm">foreach</a> | <a href="/unix/free.htm">free</a> | <a href="/unix/dos2unix.htm">fromdos</a> | <a href="/unix/fsck.htm">fsck</a> | <a href="/unix/ftp.htm">ftp</a> | <a href="/unix/fuser.htm">fuser</a></td>
+</tr>
+<tr>
+<td class="tclb bld ce">G</td>
+<td class="tcw"><a href="/unix/gawk.htm">gawk</a> | <a href="/unix/ugetfacl.htm">getfacl</a> | <a href="/unix/gpasswd.htm">gpasswd</a> | <a href="/unix/ugprof.htm">gprof</a> | <a href="/unix/ugrep.htm">grep</a> | <a href="/unix/groupadd.htm">groupadd</a> | <a href="/unix/groupdel.htm">groupdel</a> | <a href="/unix/groupmod.htm">groupmod</a> | <a href="/unix/uzcat.htm">gunzip</a> | <a href="/unix/vim.htm">gview</a> | <a href="/unix/vim.htm">gvim</a> | <a href="/unix/uzcat.htm">gzip</a></td>
+</tr>
+<tr>
+<td class="tclb bld ce">H</td>
+<td class="tcw"><a href="/unix/uhalt.htm">halt</a> | <a href="/unix/uunhash.htm">hash</a> | <a href="/unix/uunhash.htm">hashstat</a> | <a href="/unix/uhead.htm">head</a> | <a href="/unix/uhelp.htm">help</a> | <a href="/unix/uhistory.htm">history</a> | <a href="/unix/host.htm">host</a> | <a href="/unix/hostid.htm">hostid</a> | <a href="/unix/uhostnam.htm">hostname</a></td>
+</tr>
+<tr>
+<td class="tclb bld ce">I</td>
+<td class="tcw"><a href="/unix/uid.htm">id</a> | <a href="/unix/uifconfi.htm">ifconfig</a> | <a href="/unix/ifup.htm">ifdown</a> | <a href="/unix/ifup.htm">ifup</a> | <a href="/unix/info.htm">info</a> | <a href="/unix/telinit.htm">init</a> | <a href="/unix/insmod.htm">insmod</a> | <a href="/unix/iostat.htm">iostat</a> | <a href="/unix/ip.htm">ip</a> | <a href="/unix/uisalist.htm">isalist</a> | <a href="/unix/iwconfig.htm">iwconfig</a></td>
+</tr>
+<tr>
+<td class="tclb bld ce">J</td>
+<td class="tcw"><a href="/unix/ujobs.htm">jobs</a> | <a href="/unix/ujoin.htm">join</a></td>
+</tr>
+<tr>
+<td class="tclb bld ce">K</td>
+<td class="tcw"><a href="/unix/ukeylogi.htm">keylogin</a> | <a href="/unix/ukill.htm">kill</a> | <a href="/unix/killall.htm">killall</a> | <a href="/unix/uksh.htm">ksh</a></td>
+</tr>
+<tr>
+<td class="tclb bld ce">L</td>
+<td class="tcw"><a href="/unix/last.htm">last</a> | <a href="/unix/uld.htm">ld</a> | <a href="/unix/uldd.htm">ldd</a> | <a href="/unix/uless.htm">less</a> | <a href="/unix/ulex.htm">lex</a> | <a href="/unix/link.htm">link</a> | <a href="/unix/uln.htm">ln</a> | <a href="/unix/uexit.htm">lo</a> | <a href="/unix/ulocate.htm">locate</a> | <a href="/unix/ulogin.htm">login</a> | <a href="/unix/ulogname.htm">logname</a> | <a href="/unix/uexit.htm">logout</a> | <a href="/unix/losetup.htm">losetup</a> | <a href="/unix/ulp.htm">lp</a> | <a href="/unix/ulpadmin.htm">lpadmin</a> | <a href="/unix/ulpc.htm">lpc</a> | <a href="/unix/ulpq.htm">lpq</a> | <a href="/unix/ulpr.htm">lpr</a> | <a href="/unix/ulprm.htm">lprm</a> | <a href="/unix/ulpstat.htm">lpstat</a> | <a href="/unix/uls.htm">ls</a> | <a href="/unix/lsof.htm">lsof</a> | <a href="/unix/lsmod.htm">lsmod</a>| <a href="/unix/xz.htm">lzcat</a> | <a href="/unix/xz.htm">lzma</a></td>
+</tr>
+<tr>
+<td class="tclb bld ce">M</td>
+<td class="tcw"><a href="/unix/umach.htm">mach</a> | <a href="/unix/umail.htm">mail</a> | <a href="/unix/umailcom.htm">mailcompat</a> | <a href="/unix/umailx.htm">mailx</a> | <a href="/unix/umake.htm">make</a> | <a href="/unix/uman.htm">man</a> | <a href="/jargon/m/md5sum.htm">md5sum</a> | <a href="/unix/merge.htm">merge</a> | <a href="/unix/umesg.htm">mesg</a> | <a href="/unix/mii-tool.htm">mii-tool</a> | <a href="/unix/umkdir.htm">mkdir</a> | <a href="/unix/mkfs.htm">mkfs</a> | <a href="/unix/mkswap.htm">mkswap</a> | <a href="/unix/modinfo.htm">modinfo</a> | <a href="/unix/modprobe.htm">modprobe</a> | <a href="/unix/umore.htm">more</a> | <a href="/unix/umount.htm">mount</a> | <a href="/unix/umv.htm">move</a> | <a href="/unix/umt.htm">mt</a> | <a href="/unix/umv.htm">mv</a> | <a href="/unix/myisamch.htm">myisamchk</a> | <a href="/unix/mysql.htm">mysql</a> | <a href="/unix/mysqldum.htm">mysqldump</a></td>
+</tr>
+<tr>
+<td class="tclb bld ce">N</td>
+<td class="tcw"><a href="/unix/nc.htm">nc</a> | <a href="/unix/ueqn.htm">neqn</a> | <a href="/unix/unetstat.htm">netstat</a> | <a href="/unix/unewalia.htm">newalias</a> | <a href="/unix/unewform.htm">newform</a> | <a href="/unix/unewgrp.htm">newgrp</a> | <a href="/unix/unice.htm">nice</a> | <a href="/unix/uniscat.htm">niscat</a> | <a href="/unix/unischmo.htm">nischmod</a> | <a href="/unix/unischow.htm">nischown</a> | <a href="/unix/unischtt.htm">nischttl</a> | <a href="/unix/unisdefa.htm">nisdefaults</a> | <a href="/unix/unismatc.htm">nisgrep</a> | <a href="/unix/unismatc.htm">nismatch</a> | <a href="/unix/unispass.htm">nispasswd</a> | <a href="/unix/unistbla.htm">nistbladm</a> | <a href="/unix/nl.htm">nl</a> | <a href="/unix/nmap.htm">nmap</a> | <a href="/unix/unohup.htm">nohup</a> | <a href="/unix/unroff.htm">nroff</a> | <a href="/unix/unslooku.htm">nslookup</a></td>
+</tr>
+<tr>
+<td class="tclb bld ce">O</td>
+<td class="tcw"><a href="/unix/od.htm">od</a> | <a href="/unix/uon.htm">on</a> | <a href="/unix/utrap.htm">onintr</a> | <a href="/unix/uoptisa.htm">optisa</a></td>
+</tr>
+<tr>
+<td class="tclb bld ce">P</td>
+<td class="tcw"><a href="/unix/upack.htm">pack</a> | <a href="/unix/upagesiz.htm">pagesize</a> | <a href="/unix/parted.htm">parted</a> | <a href="/unix/partprob.htm">partprobe</a> | <a href="/unix/upasswor.htm">passwd</a> | <a href="/unix/upaste.htm">paste</a> | <a href="/unix/upax.htm">pax</a> | <a href="/unix/upcat.htm">pcat</a> | <a href="/unix/uperl.htm">perl</a> | <a href="/unix/upg.htm">pg</a> | <a href="/unix/upgrep.htm">pgrep</a> | <a href="/unix/upico.htm">pico</a> | <a href="/unix/upine.htm">pine</a> | <a href="/unix/uping.htm">ping</a> | <a href="/unix/upgrep.htm">pkill</a> | <a href="/unix/uhalt.htm">poweroff</a> | <a href="/unix/upr.htm">pr</a> | <a href="/unix/printenv.htm">printenv</a> | <a href="/unix/upriocnt.htm">priocntl</a> | <a href="/unix/uprintf.htm">printf</a> | <a href="/unix/ups.htm">ps</a> | <a href="/unix/pstree.htm">pstree</a> | <a href="/unix/upvs.htm">pvs</a> | <a href="/unix/upwd.htm">pwd</a> | <a href="/unix/python.htm">python</a></td>
+</tr>
+<tr>
+<td class="tclb bld ce">Q</td>
+<td class="tcw"><a href="/unix/uexit.htm">quit</a></td>
+</tr>
+<tr>
+<td class="tclb bld ce">R</td>
+<td class="tcw"><a href="/unix/urcp.htm">rcp</a> | <a href="/unix/readlink.htm">readlink</a> | <a href="/unix/uhalt.htm">reboot</a> | <a href="/unix/ued.htm">red</a> | <a href="/unix/urehash.htm">rehash</a> | <a href="/unix/ursh.htm">remsh</a> | <a href="/unix/rename.htm">rename</a> | <a href="/unix/renice.htm">renice</a> | <a href="/unix/ufor.htm">repeat</a> | <a href="/unix/replace.htm">replace</a> | <a href="/unix/vim.htm">rgview</a> | <a href="/unix/vim.htm">rgvim</a> | <a href="/unix/urlogin.htm">rlogin</a> | <a href="/unix/urm.htm">rm</a> | <a href="/unix/umail.htm">rmail</a> | <a href="/unix/urmdir.htm">rmdir</a> | <a href="/unix/rmmod.htm">rmmod</a> | <a href="/unix/urn.htm">rn</a> | <a href="/unix/route.htm">route</a> | <a href="/unix/urpcinfo.htm">rpcinfo</a> | <a href="/unix/ursh.htm">rsh</a> | <a href="/unix/rsync.htm">rsync</a> | <a href="/unix/vim.htm">rview</a> | <a href="/unix/vim.htm">rvim</a></td>
+</tr>
+<tr>
+<td class="tclb bld ce">S</td>
+<td class="tcw"><a href="/unix/us2p.htm">s2p</a> | <a href="/unix/usag.htm">sag</a> | <a href="/unix/usar.htm">sar</a> | <a href="/unix/scp.htm">scp</a> | <a href="/unix/screen.htm">screen</a> | <a href="/unix/uscript.htm">script</a> | <a href="/unix/usdiff.htm">sdiff</a> | <a href="/unix/used.htm">sed</a> | <a href="/unix/usendmai.htm">sendmail</a> | <a href="/unix/service.htm">service</a> | <a href="/unix/uset.htm">set</a> | <a href="/unix/usetenv.htm">setenv</a> | <a href="/unix/usetfacl.htm">setfacl</a> | <a href="/unix/sfdisk.htm">sfdisk</a> | <a href="/unix/sftp.htm">sftp</a> | <a href="/unix/ush.htm">sh</a> | <a href="/unix/sha224sum.htm">sha224sum</a> | <a href="/unix/sha256sum.htm">sha256sum</a> | <a href="/unix/sha384sum.htm">sha384sum</a> | <a href="/unix/sha512sum.htm">sha512sum</a> | <a href="/unix/shred.htm">shred</a> | <a href="/unix/ushutdow.htm">shutdown</a> | <a href="/unix/signals.htm">signals</a> | <a href="/unix/usleep.htm">sleep</a> | <a href="/unix/slogin.htm">slogin</a> | <a href="/unix/smbclien.htm">smbclient</a> | <a href="/unix/usort.htm">sort</a> | <a href="/unix/uspell.htm">spell</a> | <a href="/unix/usplit.htm">split</a> | <a href="/unix/stat.htm">stat</a> | <a href="/unix/ustop.htm">stop</a> | <a href="/unix/startx.htm">startx</a> | <a href="/unix/strftime.htm">strftime</a> | <a href="/unix/strip.htm">strip</a> | <a href="/unix/ustty.htm">stty</a> | <a href="/unix/usu.htm">su</a> | <a href="/unix/sudo.htm">sudo</a> | <a href="/unix/swapon.htm">swapoff</a> | <a href="/unix/swapon.htm">swapon</a> | <a href="/unix/sysklogd.htm">sysklogd</a></td>
+</tr>
+<tr>
+<td class="tclb bld ce">T</td>
+<td class="tcw"><a href="/unix/utabs.htm">tabs</a> | <a href="/unix/tac.htm">tac</a> | <a href="/unix/utail.htm">tail</a> | <a href="/unix/talk.htm">talk</a> | <a href="/unix/utar.htm">tar</a> | <a href="/unix/utbl.htm">tbl</a> | <a href="/unix/utcopy.htm">tcopy</a> | <a href="/unix/tcpdump.htm">tcpdump</a> | <a href="/unix/tcsh.htm">tcsh</a> | <a href="/unix/utee.htm">tee</a> | <a href="/unix/telinit.htm">telinit</a> | <a href="/unix/utelnet.htm">telnet</a> | <a href="/unix/test.htm">test</a> | <a href="/unix/utime.htm">time</a> | <a href="/unix/utimex.htm">timex</a> | <a href="/unix/dos2unix.htm">todos</a> | <a href="/unix/top.htm">top</a> | <a href="/unix/utouch.htm">touch</a> | <a href="/unix/utput.htm">tput</a> | <a href="/unix/utr.htm">tr</a> | <a href="/unix/utracero.htm">traceroute</a> | <a href="/unix/tree.htm">tree</a> | <a href="/unix/utroff.htm">troff</a> | <a href="/unix/tty.htm">tty</a></td>
+</tr>
+<tr>
+<td class="tclb bld ce">U</td>
+<td class="tcw"><a href="/unix/uul.htm">ul</a> |&nbsp; <a href="/unix/uumask.htm">umask</a> | <a href="/unix/uunalias.htm">unalias</a> | <a href="/unix/uuname.htm">uname</a> | <a href="/unix/uuncompr.htm">uncompress</a> | <a href="/unix/uunhash.htm">unhash</a> | <a href="/unix/uuniq.htm">uniq</a> | <a href="/unix/unlink.htm">unlink</a> | <a href="/unix/xz.htm">unlzma</a> | <a href="/unix/umount.htm">unmount</a> | <a href="/unix/uunpack.htm">unpack</a> | <a href="/unix/utar.htm">untar</a> | <a href="/unix/uuntil.htm">until</a> | <a href="/unix/xz.htm">unxz</a> | <a href="/unix/unzip.htm">unzip</a> | <a href="/unix/uptime.htm">uptime</a> | <a href="/unix/useradd.htm">useradd</a> | <a href="/unix/userdel.htm">userdel</a> | <a href="/unix/usermod.htm">usermod</a></td>
+</tr>
+<tr>
+<td class="tclb bld ce">V</td>
+<td class="tcw"><a href="/unix/uvacatio.htm">vacation</a> | <a href="/unix/uvi.htm">vedit</a> |&nbsp; <a href="/unix/uvgrind.htm">vgrind</a> | <a href="/unix/uvi.htm">vi</a> | <a href="/unix/uvi.htm">view</a> | <a href="/unix/vim.htm">vim</a> | <a href="/unix/vipw.htm">vipw</a> | <a href="/unix/visudo.htm">visudo</a> | <a href="/unix/vmstat.htm">vmstat</a></td>
+</tr>
+<tr>
+<td class="tclb bld ce">W</td>
+<td class="tcw"><a href="/unix/w.htm">w</a> | <a href="/unix/uwait.htm">wait</a> | <a href="/unix/wall.htm">wall</a> | <a href="/unix/uwc.htm">wc</a> | <a href="/unix/wget.htm">wget</a> | <a href="/unix/uwhereis.htm">whereis</a> | <a href="/unix/whatis.htm">whatis</a> | <a href="/unix/uwhich.htm">which</a> | <a href="/unix/uuntil.htm">while</a>| <a href="/unix/uwho.htm">who</a> | <a href="/unix/whoami.htm">whoami</a> | <a href="/unix/uwhois.htm">whois</a> | <a href="/unix/write.htm">write</a></td>
+</tr>
+<tr>
+<td class="tclb bld ce">X</td>
+<td class="tcw"><a href="/unix/ux.htm">X</a> | <a href="/unix/xargs.htm">xargs</a> | <a href="/unix/uxfd.htm">xfd</a> | <a href="/unix/xhost.htm">xhost</a> | <a href="/unix/xinit.htm">xinit</a> | <a href="/unix/uxlsfont.htm">xlsfonts</a> | <a href="/unix/xorg.htm">xorg</a> | <a href="/unix/uxset.htm">xset</a> | <a href="/unix/uxterm.htm">xterm</a> | <a href="/unix/uxrdb.htm">xrdb</a> | <a href="/unix/xxd.htm">xxd</a> | <a href="/unix/xz.htm">xz</a> | <a href="/unix/xz.htm">xzcat</a></td>
+</tr>
+<tr>
+<td class="tclb bld ce">Y</td>
+<td class="tcw"><a href="/unix/uyacc.htm">yacc</a> | <a href="/unix/yes.htm">yes</a> | <a href="/unix/uyppassw.htm">yppasswd</a> | <a href="/unix/yum.htm">yum</a></td>
+</tr>
+<tr>
+<td class="tclb bld ce">Z</td>
+<td class="tcw"><a href="/unix/uzcat.htm">zcat</a> | <a href="/unix/zip.htm">zip</a> | <a href="/unix/zipcloak.htm">zipcloak</a> | <a href="/unix/zipinfo.htm">zipinfo</a> | <a href="/unix/zipnote.htm">zipnote</a> | <a href="/unix/zipsplit.htm">zipsplit</a></td>
+</tr>
+</table>
+<div class="tip tab" role="note">
+<span class="title">Tip</span>
+<p>Use the <b><a href="/unix/uman.htm">man</a></b> command to view additional information about a specific command for your Unix or Linux variant.</p>
+</div>
+</article>
+<div class="bottomad">
+<div id="bottom-ad">
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3999293766533555" data-ad-slot="6514780129" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div>
+</div>
+<aside><div id="meta_wrap" class="cf"><ul class="options cf"><li class="useful-page"><span class="nolink">Was this page useful?</span><a href="/cgi-bin/feedback.cgi?yes" rel="nofollow" class="first-child">Yes</a><a href="/cgi-bin/feedback.cgi?no" rel="nofollow">No</a></li><li><ul><li class="feedback"><a href="/feedback/" rel="nofollow" title="Give us your feedback about this page">Feedback</a></li><li class="email"><a href="/contact/" rel="nofollow" title="E-mail Computer Hope">E-mail</a></li><li class="share"><a href="/share/" rel="nofollow" title="Share this page with friends and social networks">Share</a></li><li class="first-child print"><a href="#" onclick="window.print();return false;" rel="nofollow" title="Print a copy of this page">Print</a></li></ul></li></ul></div></aside>
+</div>
+<footer><div class="fcontain"><form action="https://www.computerhope.com/cgi-bin/search.cgi" role="search" method="post" class="cf"><input class="sbar" name="q" aria-label="search" type="text"><button type="Submit">Search</button></form><div role="navigation" aria-label="footer"><ul class="cf"><li class="recent-pages"><ol><li class="ftitle">Recently added pages</li><li id="ra1"></li><li id="ra2"></li><li id="ra3"></li><li id="ra4"></li><li id="ra5"></li><li><a href="/whatnew.htm">View all recent updates</a></li></ol></li><li class="useful-links"><ol><li class="ftitle">Useful links</li><li><a href="/more.htm">About Computer Hope</a></li><li><a href="/sindex.htm">Site Map</a></li><li><a href="/forum/">Forum</a></li><li><a href="/contact/">Contact Us</a></li><li><a href="/issues/ch000586.htm">How to Help</a></li><li><a href="/chtop10.htm">Top 10 pages</a></li></ol></li><li class="social-networks"><ol><li class="ftitle">Follow us</li><li><a href="https://www.facebook.com/computerhope/" class="facebook">Facebook</a></li><li><a href="https://www.youtube.com/user/Computerhope/" class="youtube">YouTube</a></li><li><a href="/rss.htm" class="rss">RSS</a></li></ol></li></ul></div><div class="copyright"><a href="/"><span class="blogo" title="Computer Hope home page" aria-hidden="true"></span><span class="sr">Computer Hope home page</span></a>&copy; 2024 Computer Hope<br><a href="/legal.htm" class="legal">Legal Disclaimer - Privacy Statement</a></div></div></footer>
+</div>
+<script async src="https://www.computerhope.com/ch.js"></script>
+<div id="tt" aria-hidden="true"></div>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'8a6ce824ebf710df',t:'MTcyMTU4MjkwMC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
