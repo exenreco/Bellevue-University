@@ -1,0 +1,28 @@
+# IDE
+.vscode
+.idea
+
+# Node dependency directories
+node_modules/
+*/node_modules
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# macOS files
+.DS_Store
+
+#ignore all files in temp folder
+temp/
+
+# ignore videos
+spcc-career-readiness/unit-1/mock-interview.mp4
+
+#ignore Books
+web-200/Books/
+web-201/Books/
+web-231/Books/
+web-321/Books/
