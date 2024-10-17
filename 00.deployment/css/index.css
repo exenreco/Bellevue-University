@@ -254,7 +254,7 @@ body { /* Style rules governing site body element */
     overflow-x: hidden;
     padding: 5px;
 }
-.page .about {
+.page .course {
     margin-bottom: 3em;
 }
 .page h3 {
@@ -264,21 +264,23 @@ body { /* Style rules governing site body element */
     display: flex;
     position: relative;
     flex: 1 1 auto;
+    flex-wrap: wrap;
+    align-items: center;
     justify-content: left;
     font-weight: bold;
     list-style: none;
     list-style-type: none;
-    width: auto;
-    margin: auto;
+    width: 100%;
+    margin: 0;
 }
 .page .project-list li {
     position: relative;
     display: inline-block;
     font-size: 14pt;
     line-height: 42pt;
-    margin-right: 20px;
     text-align: center;
     cursor: pointer;
+    margin: 2em;
 }
 .page .project-list li a {
     position: relative;
@@ -334,7 +336,7 @@ body { /* Style rules governing site body element */
     left: 0;
     right: 0;
     bottom: 0;
-    font-size: 12pt;
+    font-size: 9pt;
     background-color: var(--typography-primary-color);
     text-align: left;
     text-indent: 8pt;
@@ -384,8 +386,16 @@ body.dark-mode .header {
         width: 98%;
         padding: 8px;
     }
+    .page .course h3,
+    .page .course p {
+        text-align: center;
+    }
+    .page .course p {
+        margin-bottom: 2em;
+    }
     .page .project-list {
         flex-direction: row;
+        justify-content: center;
     }
     .page .project-list li {
         margin: 12px;
@@ -395,30 +405,24 @@ body.dark-mode .header {
 /* MEDIA SCREEN MOBILE */
 @media only screen and (max-width: 1080px), print {
     .page {
+        width: 98%;
+        padding: 8px;
         margin-top: 8em;
         width: calc(98% - 20px);
-        padding: 8px;
         height: calc(100% - 22em);
     }
-    .page .about {
+    .page .course h3,
+    .page .course p {
         text-align: center;
     }
-    .page h3 {
-        text-align: center;
+    .page .course p {
+        margin-bottom: 2em;
     }
     .page .project-list {
-        text-align: center;
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: center;
     }
     .page .project-list li {
-        margin: 12px;
-    }
-    .page .project-list li a figure {
-        width: 90%;
-        height: 16em;
-    }
-    .page .project-list li a figure img {
-        width: 200%;
-        height: auto;
+        width: 100%;
     }
 }
