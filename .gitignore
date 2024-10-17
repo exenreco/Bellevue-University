@@ -19,7 +19,7 @@ node_modules/
 temp/
 
 # ignore videos
-spcc-career-readiness/unit-1/mock-interview.mp4
+SPCC/career-readiness/unit-1/mock-interview.mp4
 
 #ignore Books
 web-200/Books/
